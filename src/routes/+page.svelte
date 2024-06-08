@@ -1,13 +1,14 @@
 <script lang="ts">
-    import src from '$lib/img/main_1.mp4';
+    import src from '$lib/img/main_1.gif';
     import asset1 from '$lib/img/asset1.svg';
     import { Img, Heading, P, Button, Modal } from 'flowbite-svelte';
 
     let clickOutsideModal = false;
 </script>
 
-
-<Img src={src} class="w-full h-full object-cover" alt="Main 1" />
+<video autoplay muted loop class="w-full h-full object-cover">
+    <source src={src} type="video/mp4" />
+</video>
 
 <div class="w-full flex justify-end">
     <Img src={asset1} class="my-10 w-full max-w-[500px]" alt="Asset 1" />
