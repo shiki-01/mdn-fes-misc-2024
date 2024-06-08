@@ -1,5 +1,5 @@
 <script lang="ts">
-    import src from '$lib/img/main_1.gif';
+    import src from '$lib/img/main_1.mp4';
     import asset1 from '$lib/img/asset1.svg';
     import { Img, Heading, P, Button, Modal } from 'flowbite-svelte';
 
