@@ -1,14 +1,13 @@
 <script lang="ts">
-    import src from '$lib/img/main_1.mp4';
+    import src from '$lib/img/main_1.gif';
     import asset1 from '$lib/img/asset1.svg';
     import { Img, Heading, P, Button, Modal } from 'flowbite-svelte';
 
     let clickOutsideModal = false;
 </script>
 
-<video autoplay muted loop class="w-full h-full object-cover">
-    <source src={src} type="video/mp4" />
-</video>
+
+<Img src={src} class="w-full h-full object-cover" alt="Main 1" />
 
 <div class="w-full flex justify-end">
     <Img src={asset1} class="my-10 w-full max-w-[500px]" alt="Asset 1" />
@@ -35,8 +34,5 @@
 
 <Modal id="modal" title="オリジナルPV" bind:open={clickOutsideModal} autoclose outsideclose>
     <P class="text-center text-lg">※音声が出ます</P>
-    <video controls class="w-full h-auto">
-        <source src={src} type="video/mp4" />
-        <track kind="captions" src="path/to/captions.vtt" srclang="ja" label="日本語">
-    </video>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/955205345?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="main_1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </Modal>
