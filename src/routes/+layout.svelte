@@ -18,7 +18,7 @@
 
 <Navbar class=" bg-primary-500">
 	<NavBrand href="/">
-		<img {src} class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
+		<img {src} class="me-3 h-6 w-auto sm:h-9" alt="Logo" />
 	</NavBrand>
 	<NavHamburger class="text-white lg:text-primary-500" />
 	<NavUl activeUrl="text-white" activeClass="text-white" nonActiveClass="text-white">
@@ -34,7 +34,7 @@
 		<div
 			class="flex flex-col items-center justify-center space-y-4 py-6 text-sm text-gray-500 sm:flex-row sm:space-y-0 dark:text-gray-400"
 		>
-			<FooterBrand href="/" class=" flex justify-center" {src} alt="Flowbite Logo" />
+			<FooterBrand href="/" class=" flex justify-center h-auto w-auto" {src} alt="Logo" />
 			<FooterLinkGroup
 				ulClass="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400"
 			>

@@ -13,6 +13,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^6.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.5.10",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -24,11 +25,13 @@
 		"eslint-plugin-svelte": "^2.36.0",
 		"flowbite": "^2.3.0",
 		"flowbite-svelte": "^0.46.1",
+		"glob-all": "^3.3.1",
 		"globals": "^15.0.0",
 		"postcss": "^8.4.38",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"prettier-plugin-tailwindcss": "^0.5.14",
+		"purgecss-webpack-plugin": "^6.0.0",
 		"svelte": "^4.0.0",
 		"svelte-check": "^3.6.0",
 		"svelte-motion": "^0.12.2",
