@@ -34,6 +34,10 @@
 </div>
 
 <Modal id="modal" title="オリジナルPV" bind:open={clickOutsideModal} autoclose outsideclose>
-    <P class="text-center text-lg">※音声が出ます - 一部環境では動画をご覧になれない場合があります。</P>
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/955205345?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="main_1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <P class="text-center text-lg">※音声が出ます</P>
+    <div class="rounded-lg overflow-hidden">
+        <video {src} controls class="w-full h-full object-cover">
+            <track {src} kind="captions" />
+        </video>
+    </div>
 </Modal>

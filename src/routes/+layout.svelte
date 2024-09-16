@@ -25,7 +25,6 @@
 		<NavLi class="text-primary-500 md:text-white lg:text-white" href="/">Home</NavLi>
 		<NavLi class="text-primary-500 md:text-white lg:text-white" href="/about">About</NavLi>
 		<NavLi class="text-primary-500 md:text-white lg:text-white" href="/access">Access</NavLi>
-		<NavLi class="text-primary-500 md:text-white lg:text-white" href="/play">Play</NavLi>
 	</NavUl>
 </Navbar>
 <div class="main">
@@ -41,11 +40,10 @@
 				<FooterLink href="/">Home</FooterLink>
 				<FooterLink href="/">About</FooterLink>
 				<FooterLink href="/">Access</FooterLink>
-				<FooterLink href="/">Play</FooterLink>
 			</FooterLinkGroup>
 		</div>
 		<hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
-		<FooterCopyright href="/" by="MISC" />
+		<FooterCopyright href="https://mdn-misc.com" by="MISC" />
 	</Footer>
 </div>
 
@@ -53,6 +51,6 @@
 	.main {
 		width: 100%;
 		height: calc(100vh - 4rem);
-		font-family: "Orbitron";
+		font-family: "Orbitron", serif;
 	}
 </style>
