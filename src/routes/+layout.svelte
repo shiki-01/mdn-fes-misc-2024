@@ -51,6 +51,6 @@
 	.main {
 		width: 100%;
 		height: calc(100vh - 4rem);
-		font-family: "Orbitron", serif;
+		font-family: "Orbitron", Noto Sans JP, sans-serif;
 	}
 </style>
