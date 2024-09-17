@@ -43,7 +43,7 @@
 			</FooterLinkGroup>
 		</div>
 		<hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
-		<FooterCopyright href="https://mdn-misc.com" by="MISC" />
+		<FooterCopyright href="https://misc-mdn.dev" by="MISC" />
 	</Footer>
 </div>
 
